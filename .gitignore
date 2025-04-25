@@ -1,0 +1,19 @@
+# Build directories
+/build
+/bin-int
+
+# Visual Studio files
+.vs
+*.sln
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Temporary files from IDEs and editors
+.vscode/
+.idea/
+
+# Compiled object files
+*.obj
+*.o
