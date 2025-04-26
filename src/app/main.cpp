@@ -30,23 +30,22 @@ int main() {
     
     auto nonRecyclable = std::make_shared<PlasticGarbage>("Plastic Bag", 0.3,false, false);
 
-    // Smistiamo i rifiuti nei bidoni
+    
     sorter.sort(plastic);
     sorter.sort(paper);
     sorter.sort(organic);
-    sorter.sort(nonRecyclable);  // Questo non sarà smistato, ma possiamo visualizzare l'output
+    sorter.sort(nonRecyclable);  
 
-    // Visualizziamo il contenuto dei bidoni dopo lo smistamento
+    
     std::cout << "Plastic Bin contains: " << std::endl;
-    plasticBin->listGarbage();  // Mostra rifiuti plastica
+    plasticBin->listGarbage(); 
 
     std::cout << "\nOrganic Bin contains: " << std::endl;
-    organicBin->listGarbage();  // Mostra rifiuti organici
+    organicBin->listGarbage();  
 
     std::cout << "\nPaper Bin contains: " << std::endl;
-    paperBin->listGarbage();  // Mostra rifiuti carta
+    paperBin->listGarbage();  
 
-    // Verifica dei rifiuti non riciclabili
     std::cout << "\nAttempting to recycle non-recyclable item..." << std::endl;
     
     if (!nonRecyclable->isRecyclable()) {
@@ -60,13 +59,13 @@ int main() {
 
     
     std::cout << "\nPlastic Bin after emptying: " << std::endl;
-    plasticBin->listGarbage();  // Il bidone plastica dovrebbe essere vuoto
+    plasticBin->listGarbage();  
 
     std::cout << "\nOrganic Bin after emptying: " << std::endl;
-    organicBin->listGarbage();  // Il bidone organico dovrebbe essere vuoto
+    organicBin->listGarbage();  
 
     std::cout << "\nPaper Bin after emptying: " << std::endl;
-    paperBin->listGarbage();  // Il bidone carta dovrebbe essere vuoto
+    paperBin->listGarbage();  
 
     return 0;
 }
