@@ -1,6 +1,6 @@
 # Garbage Project - OOP
 
-This is a C++ project created as part of the Object-Oriented Programming (OOP) course by professor .
+This is a C++ project created as part of the Object-Oriented Programming (OOP) course by professor Marek Rogalski.
 
 ## Project Structure
 
