@@ -1,6 +1,6 @@
 # Garbage Project - OOP
 
-This is a C++ project created as part of the Object-Oriented Programming (OOP) course.
+This is a C++ project created as part of the Object-Oriented Programming (OOP) course by professor Marek Rogalski.
 
 ## Project Structure
 
@@ -13,7 +13,6 @@ The project is organized as follows:
 - `premake5.lua`: The build configuration file using Premake5.
 - `.gitignore`: Standard Git ignore file to avoid committing unnecessary files.
 - `README.md`: This file, explaining how to initialize the project.
-- `plan.txt`: The initial project plan outlining the objectives and structure of the project.
 
 ## Prerequisites
 
